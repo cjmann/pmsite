@@ -707,7 +707,7 @@ export default function App() {
         <div className="contact-section">
           <FadeIn>
             <div className="section-label sans" style={{ justifyContent: "center" }}>Contact</div>
-            <h2 className="contact-title">Let's build something<br /><em>worth shipping.</em></h2>
+            <h2 className="contact-title">Let's build something<br /><em>worth shipping.</em></h2> 
             <div style={{ display: "flex", gap: "1.5rem", justifyContent: "center", flexWrap: "wrap" }}>
               <a className="btn-primary sans" href="mailto:cjordanmann@gmail.com">Email Me</a>
               <a className="btn-secondary sans" href="https://linkedin.com/in/cjmann" target="_blank" rel="noopener noreferrer">LinkedIn</a>
@@ -718,7 +718,7 @@ export default function App() {
 
       {/* FOOTER */}
       <footer>
-        <span className="footer-copy sans">© 2026 C. Jordan Mann · Charleston, SC</span>
+        <span className="footer-copy sans">© 2026 C Jordan Mann · Charleston, SC</span>
         <ul className="footer-links">
           <li><a href="mailto:cjordanmann@gmail.com">Email</a></li>
           <li><a href="https://linkedin.com/in/cjmann" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
