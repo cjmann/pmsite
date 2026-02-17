@@ -25,7 +25,7 @@ const EXPERIENCE = [
     role: "Senior Product Manager",
     company: "Inside Real Estate",
     period: "2023 – 2024",
-    tags: ["Enterprise SaaS", "Platform", "Prop Tech", "Real Estate"],
+    tags: ["Enterprise SaaS", "Prop Tech", "Real Estate"],
     highlights: [
     ],
   },
@@ -625,8 +625,7 @@ export default function App() {
               { key: "Location", val: "Charleston, SC" },
               { key: "Current Role", val: "AVP Product Management" },
               { key: "Specialization", val: "SaaS · Complex Technical Platforms · APIs · AI Workflow" },
-              { key: "Education", val: "B.A. Political Science, College of Charleston" },
-              { key: "Email", val: "cjordanmann@gmail.com" },
+              { key: "Education", val: "B.A. Political Science, College of Charleston" }
             ].map((item) => (
               <div className="about-sidebar-item" key={item.key}>
                 <div className="sidebar-key sans">{item.key}</div>
@@ -709,9 +708,6 @@ export default function App() {
           <FadeIn>
             <div className="section-label sans" style={{ justifyContent: "center" }}>Contact</div>
             <h2 className="contact-title">Let's build something<br /><em>worth shipping.</em></h2>
-            <p className="contact-sub sans">
-              Open to senior product leadership opportunities at companies building complex SaaS products.
-            </p>
             <div style={{ display: "flex", gap: "1.5rem", justifyContent: "center", flexWrap: "wrap" }}>
               <a className="btn-primary sans" href="mailto:cjordanmann@gmail.com">Email Me</a>
               <a className="btn-secondary sans" href="https://linkedin.com/in/cjmann" target="_blank" rel="noopener noreferrer">LinkedIn</a>
