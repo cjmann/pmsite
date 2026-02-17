@@ -8,53 +8,41 @@ const NAV_LINKS = ["About", "Experience", "Capabilities", "Contact"];
 const METRICS = [
   { value: "15+", label: "Years in Product" },
   { value: "24+", label: "Person Org Built" },
-  { value: "90%", label: "API Load Reduced" },
-  { value: "$38M→$75M", label: "Revenue Growth Led" },
+  { value: "400k+", label: "Enterprise Users Supported" },
+  { value: "$30M+", label: "Revenue Growth Led" },
 ];
 
 const EXPERIENCE = [
   {
     role: "Associate VP of Product Management",
     company: "Johnson & Johnson",
-    period: "Mar 2024 – Present",
+    period: "2024 – Present",
     tags: ["Insurtech", "Platform"],
     highlights: [
-      "Built & scaled a 24-person product, design & QA org across 9 lines of business on a $1B+ MGA platform",
-      "Doubled delivery throughput while improving release predictability via new operating model",
-      "Reduced quote time by 60% and internal follow-up tasks by 70% through modernized cloud quoting",
-      "40% reduction in testing time with AI-assisted QA; established API-first standards across 3 BUs",
     ],
   },
   {
     role: "Senior Product Manager",
     company: "Inside Real Estate",
-    period: "Jan 2023 – Jan 2024",
-    tags: ["Platform", "Enterprise"],
+    period: "2023 – 2024",
+    tags: ["Enterprise SaaS", "Platform", "Prop Tech", "Real Estate"],
     highlights: [
-      "Launched interactive developer portal (OAS 3.0) enabling 80% of devs to onboard without support",
-      "Re-architected API consumption workflows reducing system load by up to 90%",
-      "Led multi-PM org across APIs, auth, and developer tooling for 100k+ MAU platform",
     ],
   },
   {
-    role: "Product Director",
+    role: "Product Director / Sr Product Manager",
     company: "BoomTown",
-    period: "Nov 2021 – Jan 2023",
-    tags: ["Growth"],
+    period: "2017 – 2023",
+    tags: ["Growth", "SMB SaaS", "API", "Prop Tech", "Real Estate"],
     highlights: [
-      "Directed 5 PMs; helped grow revenue from $38M to $75M",
-      "Reduced average handle time 70% and P80 handle time 90% via data-driven workflow improvements",
-      "Improved communication deliverability and customer retention ~40% through architecture refinements",
     ],
   },
   {
-    role: "Sr. Product Manager / API Product Manager",
-    company: "BoomTown",
-    period: "Aug 2017 – Nov 2021",
-    tags: ["API"],
+    role: "Product Manager",
+    company: "Telogical Systems",
+    period: "2011 – 2017",
+    tags: ["Telecom", "BI", "API"],
     highlights: [
-      "Grew direct developer integrations from 6 to 30+ via developer portal & documentation",
-      "Built foundational API strategy and developer support processes",
     ],
   },
 ];
@@ -616,9 +604,7 @@ export default function App() {
               <p>
                 I'm a senior product leader who's spent 15 years inside the complexity of
                 technically demanding, workflow-driven SaaS — building teams, roadmaps, and
-                products that hold up at scale. From a 6-developer API ecosystem to a 30+ partner
-                platform, from a 3-person PM team to a 24-person product org: I've done the hard
-                work of making complexity legible and deliverable.
+                products that hold up at scale. I've done the hard work of making complexity legible and deliverable.
               </p>
               <p>
                 My approach starts with structured discovery — real customer and data-informed
@@ -627,8 +613,8 @@ export default function App() {
               </p>
               <p>
                 I'm especially energized by the intersection of AI and product workflow. Not AI
-                as a buzzword, but AI as a lever — reducing quote time by 60%, cutting testing
-                cycles by 40%, eliminating the friction that slows teams down and frustrates customers.
+                as a buzzword, but AI as a lever — improving product ux, cutting testing cycles, 
+                and eliminating the friction that slows teams down and frustrates customers.
               </p>
             </div>
           </FadeIn>
@@ -638,7 +624,7 @@ export default function App() {
             {[
               { key: "Location", val: "Charleston, SC" },
               { key: "Current Role", val: "AVP Product Management" },
-              { key: "Specialization", val: "SaaS · APIs · AI Workflow" },
+              { key: "Specialization", val: "SaaS · Complex Technical Platforms · APIs · AI Workflow" },
               { key: "Education", val: "B.A. Political Science, College of Charleston" },
               { key: "Email", val: "cjordanmann@gmail.com" },
             ].map((item) => (
