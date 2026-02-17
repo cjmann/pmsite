@@ -571,7 +571,7 @@ export default function App() {
         </h1>
         <p className="hero-sub sans">
           15+ years leading complex, technically demanding SaaS platforms from discovery
-          to delivery. I've built a proven record of building PM organizations, shipping
+          to delivery. I've established a proven record of building PM organizations, shipping
           measurable outcomes, and applying AI where it actually moves the needle.
         </p>
         <div className="cta-row">
