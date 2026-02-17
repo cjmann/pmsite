@@ -570,8 +570,8 @@ export default function App() {
           that scale.
         </h1>
         <p className="hero-sub sans">
-          15+ years leading complex, technically demanding SaaS platforms — from discovery
-          to delivery — with a proven record of building PM organizations, shipping
+          15+ years leading complex, technically demanding SaaS platforms from discovery
+          to delivery. I've built a proven record of building PM organizations, shipping
           measurable outcomes, and applying AI where it actually moves the needle.
         </p>
         <div className="cta-row">
@@ -603,12 +603,12 @@ export default function App() {
             <div className="about-body">
               <p>
                 I'm a senior product leader who's spent 15 years inside the complexity of
-                technically demanding, workflow-driven SaaS — building teams, roadmaps, and
+                technically demanding, workflow-driven SaaS products. Focused on building teams, roadmaps, and
                 products that hold up at scale. I've done the hard work of making complexity legible and deliverable.
               </p>
               <p>
-                My approach starts with structured discovery — real customer and data-informed
-                insight — then moves fast toward execution-ready roadmaps with clear tradeoffs.
+                My approach starts with structured discovery, real customer and data-informed
+                insights, then moves fast toward execution-ready roadmaps with clear tradeoffs.
                 I believe in communicating plainly at every level: engineering, GTM, and executive alike.
               </p>
               <p>
