@@ -725,6 +725,7 @@ export default function App() {
           <li><a href="https://linkedin.com/in/cjmann" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
         </ul>
       </footer>
+      <Analytics />
     </div>
   );
 }
