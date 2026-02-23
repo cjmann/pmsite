@@ -15,7 +15,7 @@ const METRICS = [
 
 const EXPERIENCE = [
   {
-    role: "Associate VP of Product Management",
+    role: "Associate Vice President of Product Management",
     company: "Johnson & Johnson",
     period: "2024 – Present",
     tags: ["Insurtech", "Platform"],
@@ -723,9 +723,9 @@ export default function App() {
         <ul className="footer-links">
           <li><a href="mailto:cjordanmann@gmail.com">Email</a></li>
           <li><a href="https://linkedin.com/in/cjmann" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          <li><a href="https://github.com/cjmann" target="_blank" rel="noopener noreferrer">GitHub</a></li>
         </ul>
       </footer>
-      <Analytics />
     </div>
   );
 }
