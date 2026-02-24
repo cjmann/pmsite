@@ -80,17 +80,17 @@ const CAPABILITIES = [
     desc: "Communicating roadmap tradeoffs, delivery risks, and strategic context to C-suite and cross-functional partners with clarity and confidence.",
   },
   {
-    icon: "▣",
+    icon: "⬡",
     title: "Developer Experience & Delivery Enablement",
     desc: "Improving how engineering teams ship — from release standards and CI practices to documentation workflows and tooling that reduce friction and increase reliability.",
   },
   {
-    icon: "◇",
+    icon: "◐",
     title: "Release & Operational Governance",
     desc: "Designing rollout frameworks, feature controls, and observability practices that balance speed with stability across complex product environments.",
   },
   {
-    icon: "△",
+    icon: "▽",
     title: "Technical Product Architecture Fluency",
     desc: "Comfortable operating at the intersection of APIs, identity models, platform constraints, and business strategy — translating system complexity into clear product decisions.",
   }
