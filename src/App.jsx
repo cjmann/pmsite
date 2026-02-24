@@ -10,7 +10,7 @@ const METRICS = [
   { value: "15+", label: "Years in Product" },
   { value: "24+", label: "Person Org Built" },
   { value: "400k+", label: "Enterprise Users Supported" },
-  { value: "$30M+", label: "Revenue Growth Led" },
+  { value: "$35M+", label: "Revenue Growth Led" },
 ];
 
 const EXPERIENCE = [
@@ -644,7 +644,7 @@ export default function App() {
             {[
               { key: "Location", val: "Charleston, SC" },
               { key: "Current Role", val: "AVP Product Management" },
-              { key: "Specialization", val: "SaaS · Complex Technical Platforms · APIs · AI Workflow" },
+              { key: "Specialization", val: "SaaS · Platform · Developer Products · APIs · AI Workflow" },
               { key: "Education", val: "B.A. Political Science, College of Charleston" }
             ].map((item) => (
               <div className="about-sidebar-item" key={item.key}>
