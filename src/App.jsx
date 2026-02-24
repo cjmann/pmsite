@@ -79,6 +79,21 @@ const CAPABILITIES = [
     title: "Executive Communication",
     desc: "Communicating roadmap tradeoffs, delivery risks, and strategic context to C-suite and cross-functional partners with clarity and confidence.",
   },
+  {
+    icon: "▣",
+    title: "Developer Experience & Delivery Enablement",
+    desc: "Improving how engineering teams ship — from release standards and CI practices to documentation workflows and tooling that reduce friction and increase reliability.",
+  },
+  {
+    icon: "◇",
+    title: "Release & Operational Governance",
+    desc: "Designing rollout frameworks, feature controls, and observability practices that balance speed with stability across complex product environments.",
+  },
+  {
+    icon: "△",
+    title: "Technical Product Architecture Fluency",
+    desc: "Comfortable operating at the intersection of APIs, identity models, platform constraints, and business strategy — translating system complexity into clear product decisions.",
+  }
 ];
 
 function useScrollReveal() {
@@ -467,6 +482,9 @@ export default function App() {
         .cap-card {
           background: var(--card-bg); padding: 2.5rem;
           transition: background 0.2s;
+          display: flex;              
+          flex-direction: column;     
+          min-height: 100%;          
         }
         .cap-card:hover { background: #E7E3DB; }
         .cap-icon {
@@ -480,6 +498,7 @@ export default function App() {
         .cap-desc {
           font-family: 'Instrument Sans', sans-serif;
           font-size: 0.875rem; line-height: 1.7; color: var(--warm-gray);
+          flex-grow: 1;
         }
 
         /* CONTACT */
