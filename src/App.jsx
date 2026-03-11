@@ -645,7 +645,8 @@ export default function App() {
               { key: "Location", val: "Charleston, SC" },
               { key: "Current Role", val: "AVP Product Management" },
               { key: "Specialization", val: "SaaS · Platform · Developer Products · APIs · AI Workflow" },
-              { key: "Education", val: "B.A. Political Science, College of Charleston" }
+              { key: "Education", val: "B.A. Political Science, College of Charleston" },
+              { key: "Citizenship", val:  "United States, Australia"}
             ].map((item) => (
               <div className="about-sidebar-item" key={item.key}>
                 <div className="sidebar-key sans">{item.key}</div>
