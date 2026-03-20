@@ -634,7 +634,7 @@ export default function App() {
               <p>
                 I'm especially energized by the intersection of AI and product workflow. Not AI
                 as a buzzword, but AI as a lever — improving product ux, cutting testing cycles, 
-                and eliminating the friction that slows teams down and frustrates customers.
+                and eliminating the friction that slows teams down and frustrates customers. 
               </p>
             </div>
           </FadeIn>
