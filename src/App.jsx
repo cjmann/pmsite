@@ -10,7 +10,7 @@ const METRICS = [
   { value: "15+", label: "Years in Product" },
   { value: "24+", label: "Person Org Built" },
   { value: "400k+", label: "Enterprise Users Supported" },
-  { value: "$35M+", label: "Revenue Growth Led" },
+  { value: "$50M+", label: "Revenue Growth Led" },
 ];
 
 const EXPERIENCE = [
