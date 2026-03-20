@@ -583,7 +583,7 @@ export default function App() {
           <img src={PORTRAIT} alt="C. Jordan Mann" />
         </div>
 
-        <div className="hero-eyebrow">Senior Product Leader · Technical PM</div>
+        <div className="hero-eyebrow">Product Executive · Senior Technical PM</div>
         <h1 className="hero-title">
           Building <em>complex,</em><br />
           technical products<br />
