@@ -22,7 +22,7 @@ const EXPERIENCE = [
     highlights: [
       "Own product strategy across nine insurance lines on a $1B+ premium platform in 35+ states, as the company's most senior product leader.",
       "Built and lead a 24-person product, design, and QA org; doubled delivery throughput.",
-      "Led the company's AI rollout (Claude) across product, design, and QA — design-to-code and AI test automation.",
+      "Led the company's AI rollout (Claude) across product, design, and QA: design-to-code and AI test automation.",
     ],
   },
   {
@@ -31,7 +31,7 @@ const EXPERIENCE = [
     period: "2023 – 2024",
     tags: ["Enterprise SaaS", "Prop Tech", "Real Estate"],
     highlights: [
-      "Owned enterprise APIs and IAM/SSO for Berkshire Hathaway HomeServices, NextHome, Royal LePage, and Weichert — 400k users.",
+      "Owned enterprise APIs and IAM/SSO for Berkshire Hathaway HomeServices, NextHome, Royal LePage, and Weichert, serving 400k users.",
       "Managed three PMs across a 100k+ MAU platform in a ~$150M business.",
       "Cut DocuSign integration API usage 90%; launched an OAS 3.0 developer experience.",
     ],
@@ -69,7 +69,7 @@ const CAPABILITIES = [
   {
     icon: "◉",
     title: "AI & Automation Integration",
-    desc: "Applying AI thoughtfully — from AI-assisted QA pipelines to workflow automation — to reduce friction and drive measurable efficiency gains.",
+    desc: "Applying AI thoughtfully, from AI-assisted QA pipelines to workflow automation, to reduce friction and drive measurable efficiency gains.",
   },
   {
     icon: "◇",
@@ -94,7 +94,7 @@ const CAPABILITIES = [
   {
     icon: "⬡",
     title: "Developer Experience & Delivery Enablement",
-    desc: "Improving how engineering teams ship — from release standards and CI practices to documentation workflows and tooling that reduce friction and increase reliability.",
+    desc: "Improving how engineering teams ship, from release standards and CI practices to documentation workflows and tooling that reduce friction and increase reliability.",
   },
   {
     icon: "◐",
@@ -104,7 +104,7 @@ const CAPABILITIES = [
   {
     icon: "▽",
     title: "Technical Product Architecture Fluency",
-    desc: "Comfortable operating at the intersection of APIs, identity models, platform constraints, and business strategy — translating system complexity into clear product decisions.",
+    desc: "Comfortable operating at the intersection of APIs, identity models, platform constraints, and business strategy, translating system complexity into clear product decisions.",
   }
 ];
 
@@ -443,6 +443,7 @@ export default function App() {
         .exp-card {
           background: var(--cream); padding: 2.5rem;
           transition: background 0.2s;
+          height: 100%;
         }
         .exp-card:hover { background: var(--card-bg); }
         .exp-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1rem; }
@@ -603,7 +604,7 @@ export default function App() {
         </h1>
         <p className="hero-sub sans">
           18 years building the platform and identity infrastructure behind regulated,
-          multi-tenant SaaS — and the PM teams that ship it. Now putting AI to work across
+          multi-tenant SaaS, and the PM teams that ship it. Now putting AI to work across
           product orgs where it moves the needle.
         </p>
         <div className="cta-row">
@@ -645,7 +646,7 @@ export default function App() {
               </p>
               <p>
                 I'm especially energized by the intersection of AI and product workflow. Not AI
-                as a buzzword, but AI as a lever — improving product UX, cutting testing cycles,
+                as a buzzword, but AI as a lever: improving product UX, cutting testing cycles,
                 and eliminating the friction that slows teams down and frustrates customers. 
               </p>
             </div>
