@@ -7,10 +7,10 @@ const PORTRAIT = "data:image/png;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BS
 const NAV_LINKS = ["About", "Experience", "Capabilities", "Contact"];
 
 const METRICS = [
-  { value: "15+", label: "Years in Product" },
+  { value: "18", label: "Years in Software" },
   { value: "24+", label: "Person Org Built" },
   { value: "400k+", label: "Enterprise Users Supported" },
-  { value: "$50M+", label: "Revenue Growth Led" },
+  { value: "$90M", label: "Peak Platform Revenue" },
 ];
 
 const EXPERIENCE = [
@@ -20,6 +20,9 @@ const EXPERIENCE = [
     period: "2024 – Present",
     tags: ["Insurtech", "Platform"],
     highlights: [
+      "Own product strategy across nine insurance lines on a $1B+ premium platform in 35+ states, as the company's most senior product leader.",
+      "Built and lead a 24-person product, design, and QA org; doubled delivery throughput.",
+      "Led the company's AI rollout (Claude) across product, design, and QA — design-to-code and AI test automation.",
     ],
   },
   {
@@ -28,6 +31,9 @@ const EXPERIENCE = [
     period: "2023 – 2024",
     tags: ["Enterprise SaaS", "Prop Tech", "Real Estate"],
     highlights: [
+      "Owned enterprise APIs and IAM/SSO for Berkshire Hathaway HomeServices, NextHome, Royal LePage, and Weichert — 400k users.",
+      "Managed three PMs across a 100k+ MAU platform in a ~$150M business.",
+      "Cut DocuSign integration API usage 90%; launched an OAS 3.0 developer experience.",
     ],
   },
   {
@@ -36,6 +42,9 @@ const EXPERIENCE = [
     period: "2017 – 2023",
     tags: ["Growth", "SMB SaaS", "API", "Prop Tech", "Real Estate"],
     highlights: [
+      "Directed five PMs across CRM, native mobile, APIs, and consumer web for a 40k+ MAU platform (65% DAU/MAU).",
+      "Designed and owned SSO, SCIM provisioning, and multi-tenant RBAC; grew direct integrations 400%.",
+      "Helped grow company revenue from $35M to $90M through consolidation, integrations, and user-focused features.",
     ],
   },
   {
@@ -44,6 +53,9 @@ const EXPERIENCE = [
     period: "2011 – 2017",
     tags: ["Telecom", "BI", "API"],
     highlights: [
+      "Owned the primary APIs and internal tooling for a telecom market-data platform.",
+      "Re-architected the core API and modernized the Web Monitoring browser-automation platform tracking Fortune 50 telecom data.",
+      "Built a real-time Decision Engine and API (Drools BRMS).",
     ],
   },
 ];
@@ -583,16 +595,16 @@ export default function App() {
           <img src={PORTRAIT} alt="C. Jordan Mann" />
         </div>
 
-        <div className="hero-eyebrow">Product Executive · Senior Technical PM</div>
+        <div className="hero-eyebrow">Product Executive · Platform, Identity & Regulated SaaS</div>
         <h1 className="hero-title">
           Building <em>complex,</em><br />
           technical products<br />
           that scale.
         </h1>
         <p className="hero-sub sans">
-          15+ years leading complex, technically demanding SaaS platforms from discovery
-          to delivery. I've established a proven record of building PM organizations, shipping
-          measurable outcomes, and applying AI where it actually moves the needle.
+          18 years building the platform and identity infrastructure behind regulated,
+          multi-tenant SaaS — and the PM teams that ship it. Now putting AI to work across
+          product orgs where it moves the needle.
         </p>
         <div className="cta-row">
           <a className="btn-primary sans" href="mailto:cjordanmann@gmail.com">Get In Touch</a>
@@ -622,7 +634,7 @@ export default function App() {
           <FadeIn delay={0.1}>
             <div className="about-body">
               <p>
-                I'm a senior product leader who's spent 15 years inside the complexity of
+                I'm a senior product leader who's spent 18 years inside the complexity of
                 technically demanding, workflow-driven SaaS products. Focused on building teams, roadmaps, and
                 products that hold up at scale. I've done the hard work of making complexity legible and deliverable.
               </p>
@@ -633,7 +645,7 @@ export default function App() {
               </p>
               <p>
                 I'm especially energized by the intersection of AI and product workflow. Not AI
-                as a buzzword, but AI as a lever — improving product ux, cutting testing cycles, 
+                as a buzzword, but AI as a lever — improving product UX, cutting testing cycles,
                 and eliminating the friction that slows teams down and frustrates customers. 
               </p>
             </div>
@@ -644,7 +656,7 @@ export default function App() {
             {[
               { key: "Location", val: "Charleston, SC" },
               { key: "Current Role", val: "AVP Product Management" },
-              { key: "Specialization", val: "SaaS · Platform · Developer Products · APIs · AI Workflow" },
+              { key: "Specialization", val: "SaaS · Platform · Identity/IAM · Developer Products · APIs · AI Workflow" },
               { key: "Education", val: "B.A. Political Science, College of Charleston" },
               { key: "Citizenship", val:  "United States, Australia"}
             ].map((item) => (
@@ -661,7 +673,7 @@ export default function App() {
       <section id="experience" style={{ padding: "clamp(5rem, 10vw, 8rem) clamp(1.5rem, 5vw, 4rem)" }}>
         <FadeIn>
           <div className="section-label sans">Experience</div>
-          <h2 className="section-title">15 years of<br /><em>shipped</em> outcomes.</h2>
+          <h2 className="section-title">18 years of<br /><em>shipped</em> outcomes.</h2>
         </FadeIn>
         <div className="experience-grid">
           {EXPERIENCE.map((exp, i) => (
