@@ -50,7 +50,7 @@ const EXPERIENCE = [
   {
     role: "Product Manager",
     company: "Telogical Systems",
-    period: "2011 – 2017",
+    period: "2007 – 2017",
     tags: ["Telecom", "BI", "API"],
     highlights: [
       "Owned the primary APIs and internal tooling for a telecom market-data platform.",
